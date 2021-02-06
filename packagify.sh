@@ -2,6 +2,7 @@
 
 # Blow away the existing package system, which isn't properly registered
 rm -Rf /usr/local/*
+rm -Rf /var/db/pkg/*
 
 # This stage seems awkwardly interactive ...
 pkg
