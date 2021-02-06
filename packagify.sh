@@ -17,9 +17,9 @@ pkg add /advopsys-packages/packages-local/py37-anyio-2.0.2_1.txz
 # package dependencies, but I haven't tried to shift them up yet.
 pkg install -y py37-matplotlib py37-traitlets py37-ipython py37-pyzmq py37-Jinja2 py37-packaging py37-jsonschema
 pkg install -y py37-json5 py37-requests py37-prometheus-client py37-terminado py37-send2trash py37-pygments
-pkg install -y py37-argon2-cffi py37-defusedxml py37-testpath py37-pandocfilters-1.4.3.txz py37-bleach-3.1.5.txz
-pkg install -y py37-mistune-0.8.4.txz py37-nest-asyncio-1.4.3.txz py37-async_generator-1.10.txz py37-entrypoints
-pkg install -y py37-webencodings-0.5.1.txz
+pkg install -y py37-argon2-cffi py37-defusedxml py37-testpath py37-pandocfilters-1.4.3 py37-bleach-3.1.5
+pkg install -y py37-mistune-0.8.4 py37-nest-asyncio py37-async_generator-1.10 py37-entrypoints-0.3
+pkg install -y py37-webencodings-0.5.1
 
 # IPython and related components; updated versions with newer dependencies
 pkg add /advopsys-packages/packages-local/py37-notebook-6.2.0.txz                # for py37-widgetsnbextension
