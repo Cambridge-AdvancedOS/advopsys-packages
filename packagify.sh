@@ -8,7 +8,7 @@ git clone https://github.com/Cambridge-AdvancedOS/advopsys-packages.git
 rm -Rf /usr/local/*
 rm -Rf /var/db/pkg/*
 
-# This stage seems awkwardly interactive ...
+export ASSUME_ALWAYS_YES=yes
 pkg
 
 mkdir -p /data
