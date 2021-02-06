@@ -8,7 +8,7 @@ pkg
 
 # Exploit previous git install to bootstrap, even though we will reinstall it
 cd /
-git clone git@github.com:Cambridge-AdvancedOS/advopsys-packages.git
+git clone https://github.com/Cambridge-AdvancedOS/advopsys-packages.git
 
 mkdir -p /data
 
