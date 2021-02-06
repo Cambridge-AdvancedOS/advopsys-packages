@@ -1,5 +1,17 @@
 #!/bin/sh
 
+# Blow away the existing package system, which isn't properly registered
+rm -Rf /usr/local/*
+
+# This stage seems awkwardly interactive ...
+pkg
+
+# Exploit previous git install to bootstrap, even though we will reinstall it
+cd /
+git clone git@github.com:Cambridge-AdvancedOS/advopsys-packages.git
+
+mkdir -p /data
+
 # Bootstrap package database and cache
 mkdir -p /var/cache/pkg
 cp /advopsys-packages/packages-base/* /var/cache/pkg
@@ -49,5 +61,3 @@ pkg add /advopsys-packages/packages-local/py37-python-dtrace-0.0.11.txz
 
 # Unclear why this is required, but it appears to be.
 jupyter-lab build
-
-mkdir -p /data
