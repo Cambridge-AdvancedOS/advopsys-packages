@@ -1,15 +1,15 @@
 #!/bin/sh
 
+# Exploit previous git install to bootstrap, even though we will reinstall it
+cd /
+git clone https://github.com/Cambridge-AdvancedOS/advopsys-packages.git
+
 # Blow away the existing package system, which isn't properly registered
 rm -Rf /usr/local/*
 rm -Rf /var/db/pkg/*
 
 # This stage seems awkwardly interactive ...
 pkg
-
-# Exploit previous git install to bootstrap, even though we will reinstall it
-cd /
-git clone https://github.com/Cambridge-AdvancedOS/advopsys-packages.git
 
 mkdir -p /data
 
