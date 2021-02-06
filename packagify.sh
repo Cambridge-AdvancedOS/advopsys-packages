@@ -1,6 +1,7 @@
 #!/bin/sh
 
 # Bootstrap package database and cache
+mkdir -p /var/cache/pkg
 cp /advopsys-packages/packages-base/* /var/cache/pkg
 cp /advopsys-packages/var.db.pkg/* /var/db/pkg
 
