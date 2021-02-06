@@ -49,3 +49,5 @@ pkg add /advopsys-packages/packages-local/py37-python-dtrace-0.0.11.txz
 
 # Unclear why this is required, but it appears to be.
 jupyter-lab build
+
+mkdir -p /data
