@@ -62,3 +62,7 @@ pkg add /advopsys-packages/packages-local/py37-python-dtrace-0.0.11.txz
 
 # Unclear why this is required, but it appears to be.
 jupyter-lab build
+
+cd /root
+ssh-keygen -f /root/.ssh/id_rsa -N ''
+cat /root/.ssh/id_rsa.pub >> /root/.ssh/authorized_keys
