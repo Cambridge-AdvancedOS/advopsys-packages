@@ -4,7 +4,6 @@
 cd /
 git clone https://github.com/Cambridge-AdvancedOS/advopsys-packages.git
 cd advopsys-packages
-git checkout 2021-2022
 cd ..
 
 # Blow away the existing package system, which isn't properly registered
