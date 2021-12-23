@@ -18,7 +18,7 @@ mkdir -p /data
 cd packages/All
 pkg add					\
 	bash-5.1.12.pkg			\
-	calc-2.14.0.12.pkg		\
+	calc-2.14.0.13.pkg		\
 	git-2.34.1.pkg			\
 	sudo-1.9.8p2.pkg		\
 	tmux-3.2a.pkg			\
@@ -27,7 +27,7 @@ pkg add					\
 	py38-numpy-1.20.3,1.pkg		\
 	py38-pandas-1.2.5,1.pkg		\
 	py38-python-dtrace-0.0.13.pkg	\
-	py38-pygraphviz-1.6.pkg		\
+	py38-graphviz-0.10.1.pkg	\
 	npm-6.14.8_1.pkg
 
 cd ../..
