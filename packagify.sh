@@ -26,7 +26,8 @@ pkg add					\
 	py38-numpy-1.20.3,1.pkg		\
 	py38-pandas-1.2.5,1.pkg		\
 	py38-python-dtrace-0.0.13.pkg	\
-	py38-pygraphviz-1.6.pkg
+	py38-pygraphviz-1.6.pkg		\
+	npm-6.14.8_1.pkg
 
 cd ../..
 
