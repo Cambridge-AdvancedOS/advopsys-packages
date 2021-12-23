@@ -23,6 +23,7 @@ pkg add					\
 	sudo-1.9.8p2.pkg		\
 	tmux-3.2a.pkg			\
 	py38-jupyterlab-3.1.14.pkg	\
+	py38-matplotlib-3.4.3.pkg	\
 	py38-numpy-1.20.3,1.pkg		\
 	py38-pandas-1.2.5,1.pkg		\
 	py38-python-dtrace-0.0.13.pkg	\
