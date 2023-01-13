@@ -22,7 +22,12 @@ pkg add					\
 	git-2.34.1.pkg			\
 	sudo-1.9.8p2.pkg		\
 	tmux-3.2a.pkg			\
+	py38-anytree-l41-2.8.0.pkg	\
+	py38-flamegraph-l41-20230113.pkg \
+	py38-ipympl-0.7.0.pkg		\
+	py38-ipywidgets-7.5.1_3.pkg	\
 	py38-jupyterlab-3.1.14.pkg	\
+	py38-jupyterlab-widgets-1.0.2.pkg \
 	py38-matplotlib-3.4.3.pkg	\
 	py38-numpy-1.20.3,1.pkg		\
 	py38-pandas-1.2.5,1.pkg		\
