@@ -20,6 +20,7 @@ pkg add					\
 	bash-5.1.12.pkg			\
 	calc-2.14.0.13.pkg		\
 	git-2.34.1.pkg			\
+	rsync-3.2.3_1.pkg		\
 	sudo-1.9.8p2.pkg		\
 	tmux-3.2a.pkg			\
 	py38-anytree-l41-2.8.0.pkg	\
