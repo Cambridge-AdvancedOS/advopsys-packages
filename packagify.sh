@@ -32,7 +32,7 @@ pkg add					\
 	py38-matplotlib-3.4.3.pkg	\
 	py38-numpy-1.20.3,1.pkg		\
 	py38-pandas-1.2.5,1.pkg		\
-	py38-python-dtrace-0.0.13.pkg	\
+	py38-python-dtrace-0.0.15.pkg	\
 	py38-graphviz-0.10.1.pkg	\
 	npm-6.14.8_1.pkg
 
