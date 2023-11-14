@@ -20,6 +20,7 @@ pkg add					\
 	bash-5.1.12.pkg			\
 	calc-2.14.0.13.pkg		\
 	git-2.34.1.pkg			\
+	hs-pandoc-2.14.2~00e69f6e58.pkg	\
 	rsync-3.2.3_1.pkg		\
 	sudo-1.9.8p2.pkg		\
 	tmux-3.2a.pkg			\
@@ -32,6 +33,7 @@ pkg add					\
 	py38-matplotlib-3.4.3.pkg	\
 	py38-numpy-1.20.3,1.pkg		\
 	py38-pandas-1.2.5,1.pkg		\
+	py38-pypandoc-1.5~d4115f2bbe.pkg \
 	py38-python-dtrace-0.0.15.pkg	\
 	py38-graphviz-0.10.1.pkg	\
 	npm-6.14.8_1.pkg
