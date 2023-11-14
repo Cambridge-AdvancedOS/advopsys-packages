@@ -38,6 +38,17 @@ pkg add					\
 	py38-graphviz-0.10.1.pkg	\
 	npm-6.14.8_1.pkg
 
+# Concatenate texlive-texmf package chunks.
+truncate -s 0 texlive-texmf-20210325.pkg
+for _file in $(ls texlive-texmf-20210325.pkg.split | sort); do
+	cat texlive-texmf-20210325.pkg.split/${_file} >>texlive-texmf-20210325.pkg
+done
+
+# Ignore the OS version for packages we manually built using a FreeBSD
+# 13.1-RELEASE jail.
+env IGNORE_OSVERSION=yes pkg add	\
+	tex-xetex-0.99993.pkg
+
 cd ../..
 
 # Unclear why this is required, but it appears to be.
